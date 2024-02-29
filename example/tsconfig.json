@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "video-editor-poc": ["../src/index"],
+      "video-editor-poc/*": ["../src/*"]
+    }
+  }
+}
